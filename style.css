@@ -95,7 +95,8 @@ section {
 
 
 .hero {
-    background: url('assets/hero.jpg') center/cover no-repeat; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), 
+    url('assets/hero.jpg') center/cover no-repeat; 
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -192,3 +193,103 @@ section {
     background: rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
 }
+
+
+.about-section {
+    background: rgba(0, 0, 0, 1);
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #FFA500;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1	;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text .btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #FF6B00, #FFC107);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-text .btn-primary:hover {
+    background: linear-gradient(45deg, #FFC107, #FF6B00);
+    transform: scale(1.05);
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+
