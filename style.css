@@ -616,7 +616,9 @@ html {
 }
 
 .contact-section {
-    background: black;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(17, 17, 17, 1) 100%);
+
+    /* background: black; */
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -717,3 +719,94 @@ html {
     overflow: hidden;
 }
 
+.footer {
+    border-top: 2px solid rgba(255, 165, 0, 0.6); 
+
+    background: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer h3 {
+    font-size: 22px;
+    color: #FFA500;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #FFA500;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    color: #ddd;
+    margin: 5px 0;
+}
+
+.footer-contact a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: white;
+}
+
+.footer-social a {
+    font-size: 24px;
+    color: #FFA500;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    color: #bbb;
+}
