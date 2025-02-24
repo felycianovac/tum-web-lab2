@@ -7,10 +7,11 @@
 }
 
 body {
-    background-color: #F8F9FA;
+    background-color: #EAEAEA;
     color: #3A3D46;
     padding-top: 80px; 
 }
+
 
 
 nav {
@@ -61,5 +62,34 @@ nav {
     transition: all 0.3s ease;
 }
 
+.nav-links a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: #FF6B00;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links a.active {
+    background: linear-gradient(45deg, #FF6B00, #FFC107);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
