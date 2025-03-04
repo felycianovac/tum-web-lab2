@@ -34,8 +34,11 @@ AutoFix is a responsive landing page for an **auto repair and maintenance servic
 - **Responsive design** 
 - **Smooth navigation** with section links  
 - **Service details & pricing**  
-- **Contact form with Google Maps integration** [demo]
-- **Call-to-action buttons** for bookings  
+- **Contact form with Google Maps integration** 
+- **Call-to-action buttons** for bookings
+- **Animated Mascot** for branding and engagement  
+
+
 
 ## 📸 Screenshots
 
@@ -43,20 +46,44 @@ AutoFix is a responsive landing page for an **auto repair and maintenance servic
 ![Hero Section](assets/hero.png)
 
 ### **About Us**
-![About Section](assets/about_us.png)
+<div align="center">
+  <img src="assets/about_us.png" alt="About Section" width="65%"style="margin-right: 20px;"/>
+  <img src="assets/about-mobile.png" alt="About Section" width="20%"/>
+</div>
 
 ### **Why Choose Us**
-![Why Choose Us Section](assets/choose.png)
+<div align="center">
+  <img src="assets/choose.png" alt="Choose Us Section" width="65%"style="margin-right: 20px;"/>
+  <img src="assets/choose-mobile.png" alt="Choose Us Section" width="20%"/>
+</div>
 
 ### **Services**
-![Services Section](assets/services.png)
+<div align="center">
+  <img src="assets/services.png" alt="Services Section" width="65%"style="margin-right: 20px;"/>
+  <img src="assets/services-mobile.png" alt="Services Section" width="20%"/>
+</div>
 
 ### **Pricing**
-![Pricing Section](assets/pricing.png)
+<div align="center">
+  <img src="assets/pricing.png" alt="Pricing Section" width="65%"style="margin-right: 20px;"/>
+  <img src="assets/pricing-mobile.png" alt="Pricing Section" width="20%"/>
+</div>
 
 ### **Contact Section**
-![Contact Section](assets/contact.png)
+<div align="center">
+  <img src="assets/contact.png" alt="Contact Us Section" width="65%"style="margin-right: 20px;"/>
+  <img src="assets/contacts-mobile.png" alt="Contact Us Section" width="20%"/>
+</div>
 
 ### **Footer**
 ![Footer Section](assets/footer.png)
 
+### **Mascot**
+![Mascot ](assets/mascot.png)
+
+### **Mobile-Only**
+The mobile-only hamburger menu provides a compact navigation solution for smaller screens. Instead of displaying the navbar, it hides the navigation links behind a toggle button
+
+<div align="center">
+  <img src="assets/mobile-only.png" alt="Mobile Only" width="20%"/>
+</div>
